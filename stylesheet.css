@@ -98,7 +98,7 @@ h2 {
 
 .papertitle {
   font-family: 'Lato', Verdana, Helvetica, sans-serif;
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
 }
 
@@ -140,3 +140,5 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+  
