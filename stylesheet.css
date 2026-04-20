@@ -124,6 +124,14 @@ h2 {
   -webkit-transition: opacity .2s ease-in-out;
 }
 
+
+.three {
+  width: 160px;
+  height: 160px;
+  position: relative;
+}
+
+
 .fade {
   transition: opacity .2s ease-in-out;
   -moz-transition: opacity .2s ease-in-out;
@@ -141,4 +149,30 @@ span.highlight {
     border-radius: 10px;
 }
 
-  
+.one img,
+.one video {
+ position: absolute;
+ width: 120%;
+ height: 120%;
+ object-fit: cover;
+ top: 0;
+ left: 0;
+ transition: opacity 0.4s ease;
+}
+
+
+.one img {
+  opacity: 1;
+}
+
+.one video {
+  opacity: 0;
+}
+
+.one:hover img {
+  opacity: 0;
+}
+
+.one:hover video {
+  opacity: 1;
+}  
