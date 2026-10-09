@@ -152,7 +152,7 @@ span.highlight {
 .one img,
 .one video {
  position: absolute;
- width: 120%;
+ width: 200%;
  height: 120%;
  object-fit: cover;
  top: 0;
